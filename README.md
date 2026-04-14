@@ -31,8 +31,8 @@ sales-performance-dashboard/
 │   ├── 04_loss_analysis.sql                 # Loss-making sub-categories breakdown
 │   └── 05_discount_impact.sql              # Discount vs. profit impact analysis
 │
-├── powerbi/                                 # Coming soon
-│   ├── SalesPerformanceDashboard.pbix
+├── powerbi/
+│   ├── SalesPerfomanceDashboard.pbix
 │   └── screenshots/
 │       ├── overview.png
 │       ├── regional.png
@@ -168,8 +168,33 @@ A copy is saved locally at `notebooks/Supermart_EDA.ipynb`.
 
 ---
 
+## 📊 Power BI Dashboard
+
+The interactive dashboard is built in Power BI Desktop and saved at `powerbi/SalesPerfomanceDashboard.pbix`.
+
+### Dashboard Preview
+
+![Dashboard Preview](assets/dashboard-preview.png)
+
+### Screenshots
+
+| Overview | Regional Performance | Loss Analysis |
+|----------|---------------------|---------------|
+| ![Overview](powerbi/screenshots/overview.png) | ![Regional](powerbi/screenshots/regional.png) | ![Loss Analysis](powerbi/screenshots/loss-analysis.png) |
+
+
+### Pages Covered
+
+| Page | Description |
+|------|-------------|
+| **Overview** | High-level KPIs — total revenue, profit, orders, and month-over-month growth trend |
+| **Regional Performance** | Revenue & profit breakdown by region with loss-order highlighting |
+| **Loss Analysis** | Sub-category loss contribution, discount impact, and loss-making product drill-down |
+
+---
+
 ## ✅ Progress
 
 - ✅ Data cleaning (Python)
 - ✅ SQL KPI queries
-- ⬜ Power BI dashboard & screenshots
+- ✅ Power BI dashboard & screenshots
